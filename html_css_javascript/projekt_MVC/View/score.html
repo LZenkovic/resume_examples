@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Score</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="../IndexDB.js"></script>
+    <script>
+        window.addEventListener('load', function ()
+        {
+            window.console.log("sem tadey")
+            //const model = new ModelScore()
+            db = new IndexDB();
+        })
+    </script>
+</head>
+<body>
+<div class="score">
+    <h1>Skóre</h1>
+    <div class="scoreLeft">
+        <ul id="skoreSeznam"></ul>
+    </div>
+    <div class="scoreRight">
+        <ul id="skoreSeznam2"></ul>
+    </div>
+    <div class="scoreBackButton">
+        <a href="index.html">zpět</a>
+    </div>
+</div>
+
+</body>
+</html>
